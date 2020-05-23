@@ -587,18 +587,41 @@ i {
 
 .productTitle {
   position: absolute;
-  top: 115px;
-  left: 15px;
+  top: 175px;
+  left: 25px;
   text-transform: uppercase;
   color: #fff;
-  opacity: .1;
+  opacity: .3;
   font-size: 4em;
 }
 
-@media (min-width: 435px) {
+@media (min-width: 375px) {
   .productTitle {
-    left: 45px;
+    left: 23px;
     font-size: 5em;
+  }
+}
+
+@media (min-width: 425px) {
+  .productTitle {
+    left: 37px;
+    top: 150px;
+    font-size: 5.5em;
+  }
+}
+
+@media (min-width: 768px) {
+  .productTitle {
+    top: 140px;
+    left: 30px;
+    font-size: 5.9em;
+  }
+}
+
+@media (min-width: 1440px) {
+  .productTitle {
+    font-size: 6.15em;
+    left: 15px;
   }
 }
 
