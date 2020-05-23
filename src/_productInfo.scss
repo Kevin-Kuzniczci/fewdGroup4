@@ -71,8 +71,6 @@
     }
     .gradient[color="red"] {
         background-image: linear-gradient(45deg, #d62926, #ee625f);
-        width: 100%;
-        z-index: 0;
     }
     .gradient[color="yellow"] {
         background-image: linear-gradient(45deg, #ffd400, #ffffb7);
@@ -83,6 +81,24 @@
     .gradient[color="purple"] {
         background-image: linear-gradient(45deg, #552586, #b589d6);
     }
+}
+
+.first {
+    z-index: 0;
+    animation: 1s width ease;
+}
+
+@keyframes width {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.second {
+    z-index: -1;
 }
 
 // The right side of the product information page
