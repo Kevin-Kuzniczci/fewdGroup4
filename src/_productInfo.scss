@@ -2,7 +2,7 @@ body {
     background-color: $mainGrey;
 }
 
-// Class for buttons 
+// IDs for buttons and button options.  Be sure to let me know if you want more options! 
 #push {
     background-color: $header;
     display: block;
@@ -84,7 +84,7 @@ body {
 .productBackground {
     width: 100%;
     height: 595px;
-    background-color: $primaryColor;
+    background-color: $header;
     position: relative;
     box-shadow: -15px 0 35px rgba(0, 0, 0, 0.1),
     0 -15px 35px rgba(0, 0, 0, 0.1),
