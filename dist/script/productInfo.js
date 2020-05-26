@@ -20,3 +20,9 @@ function changeColor() {
 }
 
 colorChoice.forEach(c => c.addEventListener('click', changeColor));
+
+function teaCost() {
+    num1 = document.getElementById("amount").value;
+    num2 = 12;
+    document.getElementById("total").innerHTML = num1 * num2;
+}
