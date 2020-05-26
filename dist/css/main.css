@@ -435,6 +435,64 @@ body {
   color: purple;
 }
 
+#night {
+  background-color: #383838;
+  display: block;
+  border-radius: 20%;
+  font-family: "Dosis", Helvetica, sans-serif;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: .8em;
+  color: #ffffff;
+  -webkit-box-shadow: 10px 10px 10px #ececec;
+          box-shadow: 10px 10px 10px #ececec;
+}
+
+#night:hover {
+  background-color: #ffffff;
+  color: #383838;
+  -webkit-transform: scale(0.93);
+          transform: scale(0.93);
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-box-shadow: 2px 2px 5px #383838;
+          box-shadow: 2px 2px 5px #383838;
+}
+
+#night:active {
+  background-color: orange;
+  color: purple;
+}
+
+#day {
+  background-color: #ffffff;
+  display: block;
+  border-radius: 20%;
+  font-family: "Dosis", Helvetica, sans-serif;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: .8em;
+  color: #383838;
+  -webkit-box-shadow: 10px 10px 10px #ececec;
+          box-shadow: 10px 10px 10px #ececec;
+}
+
+#day:hover {
+  background-color: #383838;
+  color: #ffffff;
+  -webkit-transform: scale(0.93);
+          transform: scale(0.93);
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-box-shadow: 2px 2px 5px #383838;
+          box-shadow: 2px 2px 5px #383838;
+}
+
+#day:active {
+  background-color: orange;
+  color: purple;
+}
+
 .container {
   min-height: 125vh;
   display: -webkit-box;

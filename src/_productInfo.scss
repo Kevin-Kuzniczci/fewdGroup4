@@ -52,6 +52,55 @@ body {
     color: purple;
 }
 
+#night {
+    background-color: $mainBlack;
+    display: block;
+    border-radius: 20%;
+    font-family: $font-main;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: .8em;
+    color: $mainWhite;
+    box-shadow: 10px 10px 10px $mainGrey;
+}
+
+#night:hover {
+    background-color: $mainWhite;
+    color: $mainBlack;
+    transform: scale(0.93);
+    transition: .5s;
+    box-shadow: 2px 2px 5px $mainBlack;
+}
+
+#night:active {
+    background-color: orange;
+    color: purple;
+}
+
+#day {
+    background-color: $mainWhite;
+    display: block;
+    border-radius: 20%;
+    font-family: $font-main;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: .8em;
+    color: $mainBlack;
+    box-shadow: 10px 10px 10px $mainGrey;
+}
+
+#day:hover {
+    background-color: $mainBlack;
+    color: $mainWhite;
+    transform: scale(0.93);
+    transition: .5s;
+    box-shadow: 2px 2px 5px $mainBlack;
+}
+
+#day:active {
+    background-color: orange;
+    color: purple;
+}
 .container {
     min-height: 125vh;
     display: flex;
