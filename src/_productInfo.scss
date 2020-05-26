@@ -230,8 +230,8 @@ body {
     left: 20px;
     transition: .5s;
     @media (min-width: 435px) {
-        height: 100px;
-        width: 100px;
+        height: 75px;
+        width: 75px;
     }
 }
 
@@ -257,7 +257,7 @@ body {
     line-height: 50px;
     color: $primaryColor;
 } .share:hover {
-    transform: scale(1.3);
+    transform: scale(1.5);
     background-color: $mainBlack;
 }
 
@@ -300,6 +300,11 @@ body {
     right: 0;
 } .show {
     opacity: 1;
+}
+
+.productlimit {
+    width: 100%;
+    height: auto;
 }
 
 // The product name on the right side of the page

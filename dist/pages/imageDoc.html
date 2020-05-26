@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet"/>
+    <link rel="stylesheet" href="../css/main.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        article {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;;
+            background-color: #a1a9fe;
+            width: 100%;
+        }
+
+        .product {
+            opacity: 1;
+        }
+
+        section {
+            width: 100%;
+        }
+        
+        p {
+            text-indent: 35px;
+        }
+
+        @media only screen and (min-width: 768px) {
+            section{
+                display: flex;
+                justify-content: flex-start;
+                width: 700px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h1>Image Options</h1>
+        <br>
+        <br>
+        <article>
+            <img src="../images/red-tea-detoxification.jpg" alt="logo" class="logo">
+            <br>
+            <br>
+            <h1>logo</h1>
+            <p>With a class of "logo", images are automatically positioned on the top left portion of the page and are 50px by 50px.  Define containers with classes like "relative" and "absolute" and the logo will be placed within a specific container!</p>
+        </article>
+        <br>
+        <article>
+            <h1>Product limit</h1>
+            <section>
+                <img src="../images/Green_tea_recipe.jpg" alt="product" class="productlimit">
+                <p>Images with a class of "productlimit" are already set to be responsive and limited strictly to the parameters YOU set! Display your products with ease, such as this modern, flexbox display of images!  Or set up your page with grid or other mode of organization that best suits your needs, this tag is very flexible!</p>
+            </section>
+        </article>
+    </article>
+</body>
+</html>
